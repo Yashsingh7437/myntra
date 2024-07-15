@@ -87,12 +87,13 @@ const OutfitMaker = () => {
             </div>
           </div>
           <button className="  text-white text-xl font-bold  w-80 p-3 bg-[#FF3E6C] rounded-md">
-            <Link to="/community">Upload Outfit</Link>
+            <Link to="http://localhost:5173/write">Upload Outfit</Link>
           </button>
         </div>
       </div>
     </div>
   );
 }
+
 
 export default OutfitMaker
